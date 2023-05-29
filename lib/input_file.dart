@@ -59,7 +59,7 @@ class _InputPageState extends State<InputPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Height",style: KLabelstyle,
+                  Text("height",style: KLabelstyle,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -79,7 +79,7 @@ class _InputPageState extends State<InputPage> {
                       thumbShape: RoundSliderThumbShape(enabledThumbRadius: 15),
                       overlayShape: RoundSliderOverlayShape(overlayRadius: 30),
                       activeTrackColor: Colors.white,
-                      inactiveTrackColor: Color(0xFF888993),
+                      inactiveTrackColor: Colors.red,
                       thumbColor: Color(0xFFEB1555),
                       overlayColor: Color(0x27EB1555),
                     ),
