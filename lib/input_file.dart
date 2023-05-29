@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'reausable.dart';
 import 'containercontent.dart';
-import '../constants.dart';
+import 'constants.dart';
 import 'Resultpage.dart';
 import 'bottombutton.dart';
 import 'Roundiconbutton.dart';
@@ -25,7 +25,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Center(child: Text('BMI CALCULATOR')),
+          title: Center(child: Text('bmi CALCULATOR')),
         ),
         body: Column(
           children: [
