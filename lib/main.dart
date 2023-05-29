@@ -1,4 +1,4 @@
-import 'package:bmi_starting/components/bottombutton.dart';
+import 'bottombutton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'input_file.dart';

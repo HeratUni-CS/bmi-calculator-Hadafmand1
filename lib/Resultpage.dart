@@ -1,6 +1,6 @@
-import 'package:bmi_starting/components/bottombutton.dart';
+import 'bottombutton.dart';
 import 'package:flutter/material.dart';
-import '../components/reausable.dart';
+import 'reausable.dart';
 import '../constants.dart';
 
 class ResultPage extends StatelessWidget {
